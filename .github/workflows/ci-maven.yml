@@ -1,10 +1,10 @@
-name: Java CI with Maven
+name: myapp CI with Maven
 
 on: workflow_dispatch
 
 env:
-  IMAGE_NAME: cloud-sample
-
+  IMAGE_NAME: myapp
+  
 jobs:
   build:
     runs-on: ubuntu-latest
